@@ -62,8 +62,7 @@ jobs:
               context: grafana-backup-tool
               push: true
               tags: |
-                 yangchuansheng/grafana-backup-tool:latest
-                 ghcr.io/yangchuansheng/grafana-backup-tool:latest
+                 zheng11581/grafana-backup-tool:latest
 
               #- name: Update repo description
               #uses: peter-evans/dockerhub-description@v2
